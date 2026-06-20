@@ -1,0 +1,11 @@
+Reference,Qty,Cost (EGP),Value,Footprint,Datasheet
+(Ac Power Cord),1,30,220Vac,,
+(Transformer),1,132.99,220Vac to 12-0-12 Vac (1A),,
+C1,1,3.75,2200u,Capacitor_THT:CP_Radial_D12.5mm_P5.00mm,~
+D1,1,4.25,KBP210,Bridge_Rectifier:SIP380W81P386L1470H1270Q4,https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1510t.pdf
+D2,1,0.52,D,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,~
+J2,1,1.25,Conn_01x02,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal",~
+J3,1,1.25,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+R1,1,0.25,240,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,~
+RV1,1,6,50k,Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical,~
+U1,1,7.9,LM317,LM317:TO-220,
