@@ -1,27 +1,33 @@
-<img width="1280" height="650" alt="star-blinky-header" src="https://github.com/ItsKareem/star-board/blob/main/images/star-blinky-header.png" />
+<img width="1280" height="650" alt="star-blinky-header" src="https://github.com/ItsKareem/the-zapfish-variable-supply/blob/main/images/the-zapfish-header.png" />
 
-# A star-shaped blinky board ݁˖ .☆
+# An AC-to-DC Variable Power Supply (3V–12V) ⚡︎ ˖ ࣪ 
 
-An LED chaser PCB that uses a NE555 timer (astable mode) and a CD4017 decade counter. I designed the PCB in the shape of a star and added custom silkscreen art to make it more personal. This makes a really cute desk toy and just a fun/beginner-friendly elecronics project. 
+A variable DC power supply built around diode applications. I designed and simulated the circuit on LTSpice to verify its behaviour, the recreated it in KiCad and designned a PCB for it. This project convers AC voltage from a transformer into a stable DC output, so it's pretty useful for powering and testing electronics projects. 
 
 ## Features
-- LED chasing animation with 10 LEDs
-- Animation speed can be adjusted using a potentiometer
-- Custom star-shaped PCB outline
-- Silkscreen art made by me
+- Adjustable DC output voltage
+- Bridge rectifier for AC-to-DC conversion
+- Filter capacitor to reduce ripple
 - THT components
+  
 I made this project as a qualifying project for [fallout](https://www.fallout.hackclub.com), a hardware hackathon organized by hack club Shenzhen, China.
 
-### Front:
-<img width="1918" height="930" alt="star-blinky" src="https://github.com/ItsKareem/star-board/blob/main/images/star-blinky.png" />
-
-### Back:
-<img width="1918" height="930" alt="star-blinky-back" src="https://github.com/ItsKareem/star-board/blob/main/images/star-blinky-back.png" />
-
 ### PCB:
-<img width="1090" height="831" alt="star-blinky-pcb" src="https://github.com/ItsKareem/star-board/blob/main/images/star-blinky-pcb.png" />
+<img width="1918" height="930" alt="the-zapfish" src="https://github.com/ItsKareem/the-zapfish-variable-supply/blob/main/images/the-zapfish.png" />
+<img width="1021" height="839" alt="the-zapfish-pcb" src="https://github.com/ItsKareem/the-zapfish-variable-supply/blob/main/images/the-zapfish-pcb.png" />
 
-Basically, the 555 generates clock pulses which fed into the CD4017, which sequentially activates each LED, creating the chasing animation.
+## How it works
 
-### Schematic:
-<img width="1280" height="650" alt="star-blinky-header" src="https://github.com/ItsKareem/star-board/blob/main/images/star-blinky-schematic.png" />
+The PCB is designed to connect to the step-down transformer instead of mounting the transformer directly on the board.
+
+1. The transformer steps down the 220V AC current to 12V
+2. The diode rectifier converts it to DC
+3. The filter capacitor reduces ripple of the pulsating DC
+4. The adjustable voltage regulator controls the value of the voltage depending on the 2 resistors
+5. The regulated DC output can then be used to power electronic circuits
+
+The PCB handles steps 2-5.
+
+### Simulation:
+<img width="3840" height="2160" alt="the-zapfish-simulation-3v" src="https://github.com/ItsKareem/the-zapfish-variable-supply/blob/main/images/the-zapfish-simulation-3v.jpg" />
+<img width="3840" height="2160" alt="the-zapfish-simulation-3v" src="https://github.com/ItsKareem/the-zapfish-variable-supply/blob/main/images/the-zapfish-simulation-12v.jpg" />
