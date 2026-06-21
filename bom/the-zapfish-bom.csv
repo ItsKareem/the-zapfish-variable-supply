@@ -9,3 +9,4 @@ J3,1,1.25,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
 R1,1,0.25,240,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,~
 RV1,1,6,50k,Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical,~
 U1,1,7.9,LM317,LM317:TO-220,
+Total,,188.16,,,
