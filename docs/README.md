@@ -31,3 +31,6 @@ The PCB handles steps 2-5.
 ### Simulation:
 <img width="3840" height="2160" alt="the-zapfish-simulation-3v" src="https://github.com/ItsKareem/the-zapfish-variable-supply/blob/main/images/the-zapfish-simulation-3v.jpg" />
 <img width="3840" height="2160" alt="the-zapfish-simulation-3v" src="https://github.com/ItsKareem/the-zapfish-variable-supply/blob/main/images/the-zapfish-simulation-12v.jpg" />
+
+### Zine Page:
+<img width="1680" height="2380" alt="the-zapfish-zine-page" src="https://github.com/ItsKareem/the-zapfish-variable-supply/blob/main/images/the-zapfish-zine-page.png" />
